@@ -1,0 +1,59 @@
+.power{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.power-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+.power-border{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.power-right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mark{
+    display: flex;
+}
+.power-right h3{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.power-right p{
+    width: 80%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.mark{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.mark img{
+    width: 20px;
+}
+.mark p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.engine{
+    width: 50%;
+}
+.engine img{
+    width: 350px;
+}
