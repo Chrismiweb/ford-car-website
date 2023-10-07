@@ -1,0 +1,48 @@
+.footer1{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.footer1-content{
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 150px;
+}
+.footer1-content h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.footer1-content p{
+    width: 80%;
+    color: #333333;
+    font-size: 14px;
+}
+.footer1-content button{
+    width: 30%;
+    padding: 10px 10px;
+    background-color: #003478;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+}
+.footer1-content button:hover{
+    background-color: #071e35;
+    transition: 0.5s ease-in-out;
+}
+.orange-car{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+.orange-car img{
+    width: 80%;
+}
