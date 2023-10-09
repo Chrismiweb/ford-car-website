@@ -41,7 +41,7 @@
     width: 50%;
     overflow: hidden;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .orange-car img{
     width: 80%;

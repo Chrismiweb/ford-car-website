@@ -45,7 +45,7 @@
     width: 50%;
     overflow: hidden;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .black-car img{
     width: 70%;
