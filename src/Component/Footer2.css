@@ -50,3 +50,27 @@
 .black-car img{
     width: 70%;
 }
+
+@media screen and (max-width:950px) {
+    .footer2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer2-content{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .footer2-content h3{
+        font-size: 25px;
+    }
+    .footer2-content p{
+        font-size: 13px;
+    }
+    .footer2-content button{
+        width: 50%;
+    }
+    .black-car{
+        width: 100%;
+    }
+    
+}

@@ -45,7 +45,7 @@ function PhotoSlider() {
   }
   return (
     <div className="slider">
-      <h2>CAR COLLECTIONW</h2>
+      <h2>CAR COLLECTION</h2>
       <div className="slider-image">
             <div className='arrow'>
                 <img src={leftarrow} alt="" onClick={prev}/>

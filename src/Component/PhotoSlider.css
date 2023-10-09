@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-image: url('../Images/bg.png');
 }
 .slider h2{
@@ -32,7 +33,7 @@
     overflow: hidden;
 }
 .car-slide img{
-    width: 600px;
+    width: 60%;
 }
 .interior{
     width: 100%;
@@ -42,11 +43,42 @@
     gap: 30px;
 }
 .interior img{
-    width: 120px;
+    width: 10%;
     transition: 1s ease-in-out;
     cursor: pointer;
 }
 .interior img:hover{
-    width: 150px;
+    width: 12%;
     transition: 1s ease-in-out;
+}
+
+
+@media screen and (max-width: 950px) {
+    .slider{
+    gap: 60px;
+    }
+    .slider h2{
+    padding-top: 0px;
+
+    }
+   .arrow img{
+    width: 25px;
+   }
+   .slider-image{
+    height: 100%;
+   }
+  
+   .car-slide img{
+        width: 70%;
+   }
+   .interior{
+    gap: 5px;
+   }
+   .interior img{
+        width: 11%;
+   }
+   .interior img:hover{
+    width: 13%;
+}
+   
 }

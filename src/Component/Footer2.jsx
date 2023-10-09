@@ -3,7 +3,7 @@ import './Footer2.css'
 import car from '../Images/blackcar.svg';
 function Footer2() {
   return (
-    <div>
+    
         <div className='footer2'>
                 <div className='footer2-content'>
                     <h3>Quality means doing it right 
@@ -20,7 +20,7 @@ function Footer2() {
                     <img src={car} alt="" />
                 </div>
         </div>
-    </div>
+    
   )
 }
 

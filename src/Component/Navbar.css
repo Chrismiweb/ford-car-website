@@ -4,6 +4,14 @@
     box-shadow: 0px;
 
 }
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
 nav{
     width: 100%;
     height: 70px;
@@ -49,3 +57,79 @@ nav{
     background-color: #003478;
     transition: 0.5s ease-in-out;
 }
+.mobile-menu{
+    display: none;
+}
+.menu1,.menu2{
+    display: none;
+}
+@media screen and (max-width:950px) {
+    .nav-pages{
+        display: none;
+    }
+    .signup-btn{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: flex;
+        padding: 0px 10px;
+        font-size: 25px;
+        background-color: #003478;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .menu1{
+        width: 100%;
+        height: 290px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+        overflow: hidden;
+        transition: 2s ease-in-out;
+
+    }
+    .menu2{
+        width: 100%;
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+        overflow: hidden;
+        transition: 2s ease-in-out;
+    }
+    .menu1 a p, .menu2 a p{
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .menu2 a, .menu1 a{
+        text-decoration: none;
+    }
+    .mobile-signup{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mobile-signup button{
+        padding: 9px 25px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #003478;
+        border: 1.5px solid #003478 ;
+        cursor: pointer;
+        background-color: white;
+    }
+    .mobile-signup button:hover{
+        color: white;
+        background-color: #003478;
+        transition: 0.5s ease-in-out;
+    }
+}   

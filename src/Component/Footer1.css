@@ -46,3 +46,21 @@
 .orange-car img{
     width: 80%;
 }
+
+@media screen and (max-width:950px) {
+    .footer1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer1-content{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .footer1-content p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .orange-car{
+        width: 100%;
+    }
+}
